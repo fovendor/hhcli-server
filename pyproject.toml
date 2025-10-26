@@ -1,0 +1,23 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "hhcli-server"
+version = "0.1.0"
+description = "Прокси-сервер OAuth2 для hh-cli. Необходим для обмена кодами авторизации на токены доступа без раскрытия секретного ключа клиента."
+authors = ["fovendor <fovendor@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "hhcli_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.0"
+gunicorn = "^22.0.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.main:api"
