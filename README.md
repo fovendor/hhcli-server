@@ -99,7 +99,7 @@ sudo systemctl status hhcli-server
 
 ### Шаг 5: Настройка Nginx
 
-Скопируйте пример конфигурации. Нужно заменить все вхождения `your_domain.com` и `your_user` на реальные значения.
+Скопируйте [пример конфигурации](/nginx_config/hhcli-server.conf). Нужно заменить все вхождения `your_domain.com` и `your_user` на реальные значения.
 
 ```bash
 sudo cp nginx_config/hhcli-server.conf /etc/nginx/sites-available/your_domain.com.conf
