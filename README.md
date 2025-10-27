@@ -1,6 +1,6 @@
 # hh-cli-server
 
-[![PyPI version](https://badge.fury.io/py/hhcli-server.svg)](https://badge.fury.io/py/hhcli-server)
+[![PyPI version](https://img.shields.io/pypi/v/hhcli-server)](https://pypi.org/project/hhcli-server/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Безопасный прокси-сервер для [hh-cli](https://github.com/fovendor/hhcli).
